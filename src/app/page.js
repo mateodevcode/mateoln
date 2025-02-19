@@ -1,100 +1,79 @@
+"use client"
 import Image from "next/image";
+import { MdStars } from "react-icons/md";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { IoIosApps } from "react-icons/io";
+import { SiHackthebox, SiTryhackme } from "react-icons/si";
+import { GrCertificate } from "react-icons/gr";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="container mx-auto p-4">
+      <main className="xl:w-1/2 lg:w-[60%] md:w-[80%] smd:w-[80%] sm:w-[100%] mx-auto">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src="/imagen-perfil.jpg"
+          alt="Mateo Lizcano Noriega"
+          width={500}
+          height={500}
+          className="rounded-full xl:w-40 lg:w-40 md:w-24 smd:w-28 sm:w-24 lg:h-40 md:h-24 smd:h-28 sm:h-24 mx-auto mt-10"
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <h2 className="xl:text-5xl lg:text-4xl md:text-3xl smd:text-3xl sm:text-3xl font-extrabold text-center xl:my-10 lg:my-10 md:my-5 smd:my-5 sm:my-5">
+          Mateo Lizcano
+        </h2>
+        <div className="flex flex-row justify-center items-center xl:text-lg lg:text-base md:text-xs smd:text-xs sm:text-[10px]">
+          <p>Desarrollador de software</p>
+          {/* <MdStars className="xl:mx-4 lg:mx-2 md:mx-2 smd:mx-2 sm:mx-2 text-2xl text-blue-600" /> */}
+          <Image src="/logo-mateo.png" alt="Logo Mateo Lizcano" width={100} height={100} className="xl:mx-4 lg:mx-2 md:mx-2 smd:mx-2 sm:mx-2 w-8 " />
+          <p>Analista de ciberseguridad</p>
+        </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div className="my-5">
+          <p className="italic text-center xl:text-xl lg:text-xl md:text-base smd:text-base sm:text-sm font-semibold">
+            {`"Mi objetivo es ayudar a las personas a mejorar su vida a través de la tecnología."`}
+          </p>
+        </div>
+        <div className="flex flex-col justify-start items-center">
+          <button className="bg-[#2867B2] hover:bg-[#5d97dd] text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://www.linkedin.com/in/mateo-lizcano-noriega/", "_blank")}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <IoLogoLinkedin className="mr-2 text-xl" /> LinkedIn
+          </button>
+          <button className="bg-black hover:bg-black/50 text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://github.com/mateodevcode", "_blank")}
           >
-            Read our docs
-          </a>
+            <FaGithub className="mr-2 text-xl" /> GitHub
+          </button>
+          <button className="bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://mateo-lizcano-noriega.vercel.app/", "_blank")}
+          >
+            <IoIosApps className="mr-2 text-xl" /> Proyectos
+          </button>
+          <button className="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://tryhackme.com/p/mateo.dev", "_blank")}
+          >
+            <SiTryhackme className="mr-2 text-xl" /> TryHackMe
+          </button>
+
+          <button className="bg-[#0B121F] hover:bg-[#172235] text-green-600 font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://app.hackthebox.com/profile/1472461", "_blank")}
+          >
+            <SiHackthebox className="mr-2 text-xl" /> Hack The Box
+          </button>
+          <button className="bg-yellow-400 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://www.credly.com/users/mateo-lizcano-noriega/badges", "_blank")}
+          >
+            <GrCertificate className="mr-2 text-xl" /> Certificaciones
+          </button>
+          <button className="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded w-72 text-lg flex flex-row justify-center items-center shadow-sm shadow-black/50 my-2"
+            onClick={() => window.open("https://wa.me/34675464502", "_blank")}
+          >
+            <FaWhatsapp className="mr-2 text-xl" /> WhatsApp
+          </button>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      <footer className="text-center mt-10">
+        <p className="text-sm text-gray-500">{`© ${new Date().getFullYear()} Mateo Lizcano Noriega`}</p>
       </footer>
     </div>
   );
