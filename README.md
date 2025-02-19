@@ -1,37 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Mateo Lizcano Noriega
 
 ## Deploy on Vercel
+Para visualizar la pagina desplegada en **Vercel** puedes dar click en el siguiente enlace. [Ir a la web](https://mateoln.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🚀 Proyecto: Plantilla Sencilla con Next.js & Tailwind CSS
+Bienvenido a mi proyecto, una plantilla minimalista desarrollada con **Next.js**, **Tailwind CSS** y **JavaScript**. Esta base está diseñada para ser rápida, escalable y fácil de personalizar.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# mateoln
+[![image](https://github.com/user-attachments/assets/116b279d-a59b-43f8-a00f-0be96c483131)](https://mateoln.vercel.app)
+
+## 🎯 Características
+
+- ⚡ **Next.js** para un rendimiento optimizado.
+- 🎨 **Tailwind CSS** para estilos modernos y responsivos.
+- 🛠️ **JavaScript** como lenguaje principal.
+- 📂 Estructura limpia y modular.
+- 🌍 Listo para despliegue en **Vercel** u otras plataformas.
+
+## 💡 Sobre mí
+
+Soy **Mateo Lizcano**, desarrollador de software y analista de ciberseguridad. Mi objetivo es ayudar a las personas a mejorar su vida a través de la tecnología. Me especializo en:
+
+- 💻 **Desarrollo Frontend** con **React.js y Next.js**.
+- 🔐 **Ciberseguridad** con experiencia en plataformas como **TryHackMe** y **Hack The Box**.
+- ⚙️ **Desarrollo Backend** con Node.js y bases de datos como **MongoDB y PostgreSQL**.
+- 📊 **Análisis de datos** con **Python y Excel**.
+
+## 📦 Instalación y Uso
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/mateodevcode/mateoln
+   ```
+2. Accede al directorio del proyecto:
+   ```bash
+   cd tu-repo
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+5. ¡Listo! Accede a `http://localhost:3000`
+
+## 🌐 Despliegue
+
+Este proyecto está optimizado para **Vercel**, pero puedes desplegarlo en otras plataformas como **Netlify** o **Firebase Hosting**.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Siéntete libre de hacer un fork del repositorio y enviar pull requests con mejoras o nuevas características.
+
+## 📩 Contacto
+
+Puedes encontrarme en:
+
+- [LinkedIn](https://www.linkedin.com/in/mateo-lizcano-noriega)
+- [GitHub](https://github.com/mateodevcode)
+- [TryHackMe](https://tryhackme.com/p/mateo.dev)
+- [Hack The Box](https://app.hackthebox.com/profile/1472461)
+- [WhatsApp](https://wa.me/34675464502)
+
+---
+
+📌 **Licencia:** MIT | 🌟 ¡Si te gusta este proyecto, dale una estrella! ⭐
+
+
